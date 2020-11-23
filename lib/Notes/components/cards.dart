@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../data/models.dart';
+import 'package:gec_app/Notes/data/models.dart';
 
 List<Color> colorList = [
   Colors.blue,
