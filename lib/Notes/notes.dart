@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gec_app/Notes/services/sharedPref.dart';
-import 'screens/home.dart';
-import 'data/theme.dart';
+import 'package:gec_app/Notes/screens/home.dart';
+import 'package:gec_app/Notes/data/theme.dart';
 
 class Notes extends StatefulWidget {
   // This widget is the root of your application.
@@ -20,7 +20,7 @@ class _NotesState extends State<Notes> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Notes',
       theme: theme,
       home: MyHomePage(title: 'Home', changeTheme: setTheme),
     );
