@@ -6,12 +6,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
-import 'package:notes/data/models.dart';
-import 'package:notes/screens/edit.dart';
-import 'package:notes/services/database.dart';
+import 'package:gec_app/Notes/data/models.dart';
+import 'package:gec_app/Notes/screens/edit.dart';
+import 'package:gec_app/Notes/services/database.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
 import 'package:share/share.dart';
 
+// ignore: must_be_immutable
 class ViewNotePage extends StatefulWidget {
   Function() triggerRefetch;
   NotesModel currentNote;
