@@ -1,6 +1,6 @@
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import '../data/models.dart';
+import 'package:gec_app/Notes/data/models.dart';
 
 class NotesDatabaseService {
   String path;
