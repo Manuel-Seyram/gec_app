@@ -3,15 +3,17 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:gec_app/Menu.dart';
 import 'package:gec_app/Notes/components/faderoute.dart';
 import 'package:gec_app/Notes/data/models.dart';
 import 'package:gec_app/Notes/screens/edit.dart';
 import 'package:gec_app/Notes/screens/view.dart';
 import 'package:gec_app/Notes/services/database.dart';
-import 'settings.dart';
+import 'package:gec_app/Notes/screens/settings.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
-import '../components/cards.dart';
+import 'package:gec_app/Notes/components/cards.dart';
 
+// ignore: must_be_immutable
 class MyHomePage extends StatefulWidget {
   Function(Brightness brightness) changeTheme;
   MyHomePage({Key key, this.title, Function(Brightness brightness) changeTheme})
@@ -51,6 +53,16 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.white),
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => HomeScreen()));
+          },
+        ),
+      ),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Theme.of(context).primaryColor,
         onPressed: () {
@@ -84,13 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       duration: Duration(milliseconds: 200),
                       padding: EdgeInsets.all(16),
                       alignment: Alignment.centerRight,
-                      child: Icon(
-                        OMIcons.settings,
-                        color: Theme.of(context).brightness == Brightness.light
-                            ? Colors.grey.shade600
-                            : Colors.grey.shade300,
-                      ),
                     ),
+                    //Dont forget to link settings page on the settings card.
                   ),
                 ],
               ),
