@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gec_app/MenuItems/Audio%20Books.dart';
 import 'package:gec_app/MenuItems/Bible.dart';
 import 'package:gec_app/MenuItems/Ewe%20Hymnals.dart';
-import 'package:gec_app/MenuItems/Notes.dart';
+import 'Notes/notes.dart';
 import 'package:gec_app/MenuItems/Quiz.dart';
 
 class HomeScreen extends StatefulWidget {
