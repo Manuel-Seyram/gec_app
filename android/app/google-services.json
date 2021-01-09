@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600965681341",
+    "project_id": "gec-app-a891d",
+    "storage_bucket": "gec-app-a891d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600965681341:android:b71422ce3b8a744251e7d4",
+        "android_client_info": {
+          "package_name": "com.example.gec_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600965681341-7gk60cpfakog8q9rh8l2506n6m4fod89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf-R5IPFJxcVCHowqC-cadtX3H5EQy12I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600965681341-7gk60cpfakog8q9rh8l2506n6m4fod89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
