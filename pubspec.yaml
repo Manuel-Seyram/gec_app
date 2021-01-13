@@ -33,6 +33,12 @@ dev_dependencies:
   url_launcher: ^5.0.3
   shared_preferences: ^0.5.3+1
   share: ^0.6.1+1
+  package_info: ^0.4.3
+  path_provider: ^1.6.18
+  http: ^0.12.2
+  firebase_core: ^0.5.0+1
+  firebase_analytics: ^6.0.2
+  flutter_reorderable_list: ^0.1.5
 
 
 # For information on the generic Dart part of this file, see the
@@ -54,6 +60,7 @@ flutter:
      - assets/images/audiobook.png
      - assets/images/bible.png
      - assets/images/quiz.png
+     - assets/book.json
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -75,6 +82,19 @@ flutter:
            style: italic
          - asset: fonts/ZillaSlab-Bold.ttf
            weight: 700
+     - family: Lato
+       fonts:
+         - asset: assets/fonts/Lato-Thin.ttf
+         - asset: assets/fonts/Lato-Regular.ttf
+         - asset: assets/fonts/Lato-Light.ttf
+         - asset: assets/fonts/Lato-Italic.ttf
+         - asset: assets/fonts/Lato-Bold.ttf
+     - family: LaiSiangtho
+       fonts:
+         - asset: assets/fonts/LaiSiangtho.ttf
+     - family: Mm3Web
+       fonts:
+         - asset: assets/fonts/Mm3Web.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
