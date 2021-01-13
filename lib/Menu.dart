@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gec_app/MenuItems/Audio%20Books.dart';
-import 'package:gec_app/MenuItems/Bible.dart';
+import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Ewe%20Hymnals.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/MenuItems/Quiz.dart';
