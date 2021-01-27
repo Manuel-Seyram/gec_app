@@ -1,13 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:gec_app/MenuItems/Audio%20Books.dart';
 import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Ewe%20Hymnals.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/MenuItems/Quiz.dart';
+import 'package:url_launcher/url_launcher.dart';
 
+// ignore: must_be_immutable
 class HomeScreen extends StatefulWidget {
+  Function(Brightness brightness) changeTheme;
+  HomeScreen({Key key, this.title, Function(Brightness brightness) changeTheme})
+      : super(key: key) {
+    this.changeTheme = changeTheme;
+  }
+
+  final String title;
+
   @override
-  _HomeScreenState createState() => new _HomeScreenState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
@@ -24,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       backgroundColor: Colors.blue[50],
       body: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(6.0),
         child: GridView.count(
           crossAxisCount: 2,
           children: <Widget>[
@@ -63,14 +72,20 @@ class _HomeScreenState extends State<HomeScreen> {
             Card(
               margin: EdgeInsets.all(9.0),
               child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => AudioBooks()));
+                onTap: () async {
+                  const url =
+                      'https://docs.google.com/forms/d/e/1FAIpQLSdvkJDw1PX5_di1B1hebt6GYkxtAN9G7BnqwpY-ftaV9W2UtQ/viewform';
+
+                  if (await canLaunch(url)) {
+                    await launch(url, forceWebView: true);
+                  } else {
+                    throw 'Could not launch $url';
+                  }
                 },
                 splashColor: Colors.blue,
                 child: Center(
                   child: Image.asset(
-                    'assets/images/audiobook.png',
+                    'assets/images/join us.png',
                     fit: BoxFit.cover,
                   ),
                 ),
