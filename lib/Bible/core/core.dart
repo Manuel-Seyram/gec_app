@@ -35,7 +35,7 @@ class Core extends _Collection with _Bible, _Bookmark, _Speech, _Mock {
 
   Future<void> init() async {
     await appInfo.then((PackageInfo packageInfo) {
-      this.appName = packageInfo.appName;
+      this.appName = "GEC Bible";
       this.packageName = packageInfo.packageName;
       this.version = packageInfo.version;
       this.buildNumber = packageInfo.buildNumber;
