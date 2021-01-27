@@ -22,16 +22,17 @@ mixin _Bar on _State {
       Align(
         alignment: Alignment(-.95, 0),
         child: CupertinoButton(
+            color: Colors.black,
             onPressed: () => Navigator.of(context).pop(),
             padding: EdgeInsets.zero,
             child: Row(
               mainAxisSize: MainAxisSize.min,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                new Icon(
-                  // Icons.arrow_back_ios,
-                  CustomIcon.left_open_big,
-                  // size: 27,
+                Icon(
+                  Icons.arrow_back,
+                  // CustomIcon.left_open_big,
+                  size: 27,
                 ),
                 Text(widget.title ?? 'Back')
               ],
@@ -97,7 +98,7 @@ mixin _Bar on _State {
           child: new Icon(
             // Icons.sort,
             CustomIcon.swatchbook,
-            color: this.isSorting ? Colors.red : null,
+            color: this.isSorting ? Colors.blue : null,
             size: 20,
           ),
           onPressed: setSorting),
@@ -110,8 +111,8 @@ mixin _Bar on _State {
         style: TextStyle(
           fontFamily: "sans-serif",
           // color: Color.lerp(Colors.white, Colors.white24, stretch),
-          // color: Colors.black,
-          fontWeight: FontWeight.w200,
+          color: Colors.black,
+          fontWeight: FontWeight.w500,
           // fontWeight: FontWeight.lerp(FontWeight.w200, FontWeight.w300, stretch),
           // fontSize:35 - (16*stretch),
           fontSize: (35 * shrink).clamp(25.0, 35.0),
