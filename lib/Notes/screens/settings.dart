@@ -5,7 +5,6 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:gec_app/Notes/services/sharedPref.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 // ignore: must_be_immutable
 class SettingsPage extends StatefulWidget {
@@ -136,9 +135,5 @@ class _SettingsPageState extends State<SettingsPage> {
       widget.changeTheme(Brightness.dark);
     }
     setThemeinSharedPref(value);
-  }
-
-  void openGitHub() {
-    launch('https://www.github.com/roshanrahman');
   }
 }
