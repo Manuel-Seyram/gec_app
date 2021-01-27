@@ -6,7 +6,7 @@ List<Color> colorList = [
   Colors.blue,
   Colors.green,
   Colors.indigo,
-  Colors.red,
+  Colors.blue,
   Colors.cyan,
   Colors.teal,
   Colors.amber.shade900,
@@ -32,7 +32,7 @@ class NoteCardComponent extends StatelessWidget {
         height: 110,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
-          boxShadow: [buildBoxShadow(color, context)],
+          boxShadow: [buildBoxShadow(Colors.blue, context)],
         ),
         child: Material(
           borderRadius: BorderRadius.circular(16),
@@ -75,7 +75,7 @@ class NoteCardComponent extends StatelessWidget {
                         Icon(Icons.flag,
                             size: 16,
                             color: noteData.isImportant
-                                ? color
+                                ? Colors.blue
                                 : Colors.transparent),
                         Spacer(),
                         Text(
