@@ -36,9 +36,16 @@ dev_dependencies:
   package_info: ^0.4.3
   path_provider: ^1.6.18
   http: ^0.12.2
-  firebase_core: ^0.5.0+1
+  firebase_core: ^0.5.0+1s
   firebase_analytics: ^6.0.2
   flutter_reorderable_list: ^0.1.5
+  flutter_launcher_icons: ^0.6.1
+
+flutter_icons:
+  image_path: "icons/global.png"
+  android: true
+  ios: true
+  
 
 
 # For information on the generic Dart part of this file, see the
@@ -57,7 +64,7 @@ flutter:
      - assets/images/global.png
      - assets/images/notes.png
      - assets/images/hymn.png
-     - assets/images/audiobook.png
+     - assets/images/join us.png
      - assets/images/bible.png
      - assets/images/quiz.png
      - assets/book.json
