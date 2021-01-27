@@ -68,7 +68,7 @@ class _BottomBarAnimatedState extends State<ScrollPageBottom>
         // builder: (BuildContext context, bool hide,Widget child) => (hide)?SizedBox.shrink():_height()
         // builder: (BuildContext context, bool hide,Widget child) => (hide)?Container(height: 0,color:Colors.brown):_height()
         builder: (BuildContext context, bool hide, Widget child) =>
-            (hide) ? Container(height: 0, color: Colors.brown) : _height());
+            (hide) ? Container(height: 0, color: Colors.blue) : _height());
     // return _height();
   }
 
@@ -138,7 +138,7 @@ class _BottomBarAnimatedState extends State<ScrollPageBottom>
         // color: Colors.red,
         child: DecoratedBox(
             decoration: BoxDecoration(
-                color: Theme.of(context).primaryColor,
+                color: Colors.blue,
                 borderRadius: new BorderRadius.vertical(
                   top: Radius.elliptical(3, 2),
                   // bottom: Radius.elliptical(3, 2)
