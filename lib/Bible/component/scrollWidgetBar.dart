@@ -53,14 +53,14 @@ class ScrollPageBarDelegate extends ScrollBarDelegate {
     double shrink = (1.0 - stretch).toDouble();
     return Container(
         decoration: BoxDecoration(
-            color: this.backgroundColor ?? Theme.of(context).primaryColor,
+            color: Colors.white ?? Theme.of(context).primaryColor,
             borderRadius:
                 new BorderRadius.vertical(bottom: Radius.elliptical(3, 2)),
             boxShadow: [
               BoxShadow(
                 blurRadius: 0.0,
                 // color: Colors.black38,
-                color: Theme.of(context).backgroundColor,
+                color: Colors.black38,
                 spreadRadius: 0.7,
                 offset: Offset(0.5, .1),
               )
