@@ -54,7 +54,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        backgroundColor: Colors.transparent,
+        title: Text("GEC Notes", textAlign: TextAlign.center),
+        backgroundColor: Colors.blue,
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
@@ -97,6 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       padding: EdgeInsets.all(16),
                       alignment: Alignment.centerRight,
                     ),
+
                     //Dont forget to link settings page on the settings card.
                   ),
                 ],
