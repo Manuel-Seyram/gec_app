@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Join.dart';
+import 'package:gec_app/MenuItems/aboutUs.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/MenuItems/Quiz.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -79,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 splashColor: Colors.blue,
                 child: Center(
                   child: Image.asset(
-                    'assets/images/about-us.png',
+                    'assets/images/visit.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
