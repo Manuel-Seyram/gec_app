@@ -40,6 +40,7 @@ dev_dependencies:
   firebase_analytics: ^6.0.2
   flutter_reorderable_list: ^0.1.5
   flutter_launcher_icons: ^0.6.1
+  flutter_inappwebview: ^4.0.0+4
 
 flutter_icons:
   image_path: "icons/global.png"
@@ -67,6 +68,7 @@ flutter:
      - assets/images/join us.png
      - assets/images/bible.png
      - assets/images/quiz.png
+     - assets/images/about-us.png     
      - assets/book.json
   
 
