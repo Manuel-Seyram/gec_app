@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gec_app/Bible/bible.dart';
-import 'package:gec_app/MenuItems/Ewe%20Hymnals.dart';
+import 'package:gec_app/MenuItems/Join.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/MenuItems/Quiz.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -72,20 +72,14 @@ class _HomeScreenState extends State<HomeScreen> {
             Card(
               margin: EdgeInsets.all(9.0),
               child: InkWell(
-                onTap: () async {
-                  const url =
-                      'https://docs.google.com/forms/d/e/1FAIpQLSdvkJDw1PX5_di1B1hebt6GYkxtAN9G7BnqwpY-ftaV9W2UtQ/viewform';
-
-                  if (await canLaunch(url)) {
-                    await launch(url, forceWebView: true);
-                  } else {
-                    throw 'Could not launch $url';
-                  }
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => AboutUs()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
                   child: Image.asset(
-                    'assets/images/join us.png',
+                    'assets/images/about-us.png',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -112,12 +106,12 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => EweHymns()));
+                      MaterialPageRoute(builder: (context) => JoinGec()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
                   child: Image.asset(
-                    'assets/images/hymn.png',
+                    'assets/images/join us.png',
                     fit: BoxFit.cover,
                   ),
                 ),
