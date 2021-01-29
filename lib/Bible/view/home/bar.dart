@@ -20,24 +20,21 @@ mixin _Bar on _State {
       double shrink, double stretch) {
     return Stack(children: <Widget>[
       Align(
-        alignment: Alignment(-.95, 0),
-        child: CupertinoButton(
-            color: Colors.black,
-            onPressed: () => Navigator.of(context).pop(),
-            padding: EdgeInsets.zero,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Icon(
-                  Icons.arrow_back,
-                  // CustomIcon.left_open_big,
-                  size: 27,
-                ),
-                Text(widget.title ?? 'Back')
-              ],
-            )),
-      ),
+          alignment: Alignment(-.95, 0),
+          child: CupertinoButton(
+              padding: EdgeInsets.zero,
+              // padding: EdgeInsets.symmetric(vertical:10,horizontal:10),
+              // color: Colors.blue,
+              child: new Icon(
+                // Icons.sort,
+                CustomIcon.swatchbook,
+                color: Colors.blue,
+                size: 20,
+              ),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()));
+              })),
       // if (widget.title != null)Align(
       //   // alignment: Alignment.lerp(Alignment(-0.2,0.5),Alignment(-0.5,-.4), stretch),
       //   alignment: Alignment(-.6,0),
