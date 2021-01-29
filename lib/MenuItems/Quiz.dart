@@ -11,7 +11,7 @@ class _QuizState extends State<Quiz> {
     return Scaffold(
       appBar: new AppBar(
         title: Text("Quiz"),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue[500],
       ),
     );
   }
