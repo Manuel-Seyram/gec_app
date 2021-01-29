@@ -6,6 +6,7 @@ import 'package:gec_app/Bible/widget.dart';
 import 'package:gec_app/Bible/icon.dart';
 
 import 'package:flutter_reorderable_list/flutter_reorderable_list.dart';
+import 'package:gec_app/Menu.dart';
 
 part 'view.dart';
 part 'bar.dart';
