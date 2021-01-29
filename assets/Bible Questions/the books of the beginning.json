@@ -1,0 +1,105 @@
+[
+    {
+        "1": "What two things did God create in the beginning (Gen. 1:1)?",
+        "2": "What was the Spirit of God doing initially before the 7 days of creation",
+        "3": "On the first day after God made the light, what two things did He",
+        "4": "The sequence of the day and night began on what day (Gen. 1:5)?",
+        "5": "After creating the heavens and the earth, what was the first thing God created (Gen 1:3)?",
+        "6": "What did God call the expanse or space He made on the second day to separate the waters above and below (Gen. 1:8)? ",
+        "7": "After separating the waters above and below, what happened next to the waters below on day 3 (Gen. 1:9)? The waters were _______",
+        "8": "After the waters were fashioned into seas, what appeared on the third day",
+        "9": "What was the land to bring forth (Gen. 1:11)? ",
+        "10": "What were to mark the seasons and years (Gen 1:14)?",
+        "11": "Which of the following is not a C++ Header file ?",
+        "12": "Which function finds out the Variable type in Python ?",
+        "13": "Which of the following keyword is used to define a function in Python ?",
+        "14": "Which of the following is a print Function in Python ?",
+        "15": "Which function finds out the Variable type in Python ?",
+        "16": "Which of the following keyword is used to define a function in Python ?",
+        "17": "Which function finds out the Variable type in Python ?",
+        "18": "Which of the following keyword is used to define a function in Python ?",
+        "19": "Which function finds out the Variable type in Python ?",
+        "20": "Which of the following keyword is used to define a function in Python ?"
+    },
+    
+    {
+        "1": {
+            "a": "The light and the darkness",
+            "b": "The heavens and the earth",
+            "c": "The land and the sea",
+            "d": "The world and the stars"
+        },
+        "2": {
+            "a": "Breathing life on the land",
+            "b": "Sweeping over the earth like a wind",
+            "c": "Speaking to the waters",
+            "d": "Hovering over the waters" 
+
+        },
+        "3": {
+            "a": "Land and the sea",
+            "b": "The light on the earth and the light of His presence",
+            "c": "Light and darkness",
+            "d": "The sun and moon "
+           
+        },
+        "4": {
+            "a": "First",
+            "b": "Second",
+            "c": "Third",
+            "d": "Fourth" 
+        },
+        "5": {
+            "a": "Water",
+            "b": "Land",
+            "c": "Sky",
+            "d": "Light" 
+        },
+        "6": {
+            "a": "Sky/heaven",
+            "b": "Oceans/seas",
+            "c": "Outer space/stars",
+            "d": "Clouds/Vapour"
+        },
+        "7": {
+            "a": "Lifted up as the land rose",
+            "b": "Frozen under the heavens",
+            "c": "Gathered into one place",
+            "d": "Scattered to the ends of the earth"
+        },
+        "8": {
+            "a": "The birds and the fish",
+            "b": "The mountains tops",
+            "c": "The hand of the Lord",
+            "d": "The dry land"
+        },
+        "9": {
+            "a": "Plants and animals",
+            "b": "Plants and trees",
+            "c": "Rocks and hills",
+            "d": "Flowing brooks and rivers"
+        },
+        "10": {
+            "a": "The ocean tides",
+            "b": "The stars and heavens",
+            "c": "The sun and moon",
+            "d": "The plants and animals"
+        }
+    },
+
+    {
+        "1": "The heavens and the earth",
+        "2": "Hovering over the waters",
+        "3": "Light and darkness",
+        "4": "First",
+        "5": "Light",
+        "6": "Sky/heaven",
+        "7": "Gathered into one place",
+        "8": "The dry land",
+        "9": "Plants and trees",
+        "10": "The sun and moon"
+    }
+]
+
+
+
