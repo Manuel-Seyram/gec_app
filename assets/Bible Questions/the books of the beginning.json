@@ -10,16 +10,36 @@
         "8": "After the waters were fashioned into seas, what appeared on the third day",
         "9": "What was the land to bring forth (Gen. 1:11)? ",
         "10": "What were to mark the seasons and years (Gen 1:14)?",
-        "11": "Which of the following is not a C++ Header file ?",
-        "12": "Which function finds out the Variable type in Python ?",
-        "13": "Which of the following keyword is used to define a function in Python ?",
-        "14": "Which of the following is a print Function in Python ?",
-        "15": "Which function finds out the Variable type in Python ?",
-        "16": "Which of the following keyword is used to define a function in Python ?",
-        "17": "Which function finds out the Variable type in Python ?",
-        "18": "Which of the following keyword is used to define a function in Python ?",
-        "19": "Which function finds out the Variable type in Python ?",
-        "20": "Which of the following keyword is used to define a function in Python ?"
+        "11": "How many of Jacob's family went down into Egypt (Ex. 1:5)?",
+        "12": "As Joseph's generation died, what did the Israelites do in Egypt (Ex. 1:7)?",
+        "13": "How was the oppressive new king of Egypt identified (Ex. 1:8)? ",
+        "14": "Besides Pithom, what other city did the Israelites build (Ex. 1:11)?",
+        "15": "What did the new King of Egypt fear in regard to the Israelites (Ex. 1:10)?",
+        "16": "With what two substances did the Egyptians make the Israelites' lives bitter with hard labor (Ex. 1:14)?",
+        "17": "What did the king command the Hebrew midwives to do (Ex. 1:16)?",
+        "18": "What were the names of the Hebrew midwives (Ex. 1:15)?",
+        "19": "What motivated the midwives to refuse to do what the king of Egypt had commanded them (Ex. 1:17)?",
+        "20": "What excuse did the midwives give the King of Egypt explaining why they let the babies live (Ex. 1:19)?",
+        "21": "From where did the LORD speak to Moses, when instructing him on how the offerings were to be made (Lev. 1:1)?",
+        "22": "If one were offering a burnt offering from the herds or flocks, what were two basic requirements (Lev. 1:3)?",
+        "23": "For the burnt offering, the giver was to bring the animal and",
+        "24": "All of the following animals were allowed to be burnt offerings EXCEPT (Lev. 1:5,10, 14)?",
+        "25": "The flocks contained what types of animals (Lev. 1:10) ",
+        "26": "In the burnt offering, where was the blood of the animal to be sprinkled (Lev. 1:5)?",
+        "27": "Who was to arrange the pieces of the animals from the burnt offering on the altar (Lev. 1:8)? ",
+        "28": "In the burnt offering, how much of the animal was to be burned up (Lev. 1:9)?",
+        "29": "What did the burnt offering do for the person who presented it? (Lev. 1:4)? It _________ him. ",
+        "30": "The one bringing the burnt offering was to",
+        "31": "After they came out of Egypt, when did the LORD order the census of Israel (Num. 1:1)? ",
+        "32": "How old did the men who were counted in the census have to be (Num. 1:3)? ",
+        "33": "Who were to help Moses and Aaron take the census (Num. 1:4)?",
+        "34": "In the census each person was listed (Num. 1:18) ",
+        "35": "Approximately how many men did each of the tribes have in the Numbers census (Num. 1:21, 23, 25)? Ball park figure ",
+        "36": "Which tribe had the most counted in the census (Num. 1:26)?",
+        "37": "The total that were numbered in the census came to approximately (Num. 1:46) ",
+        "38": "What tribe was not to be counted (Num. 1:47)? ",
+        "39": "All of the following were job responsibilities of the tribe of Levi EXCEPT (Num. 1:50ff) ",
+        "40": "Which tribe was to camp directly around the Tabernacle (Num. 1:53)? "
     },
     
     {
@@ -84,7 +104,190 @@
             "b": "The stars and heavens",
             "c": "The sun and moon",
             "d": "The plants and animals"
+        },
+        "11": {
+            "a": "50",
+            "b": "60",
+            "c": "70",
+            "d": "80"
+        },
+        "12": {
+            "a": "Worshipped other gods",
+            "b": "Multiplied",
+            "c": "Became wealthy",
+            "d": "Spread out in the land of Egypt" 
+        },
+        "13": {
+            "a": "As one who did not know about Joseph",
+            "b": "As one who feared neither God nor man",
+            "c": "As one who was hard hearted",
+            "d": "As one who served other gods"
+        },
+        "14": {
+            "a": "Amon-Re",
+            "B": "Giza",
+            "c": "Amarna",
+            "d":"Rameses"
+        },
+        "15": {
+            "a": "They would plunder the wealth of Egypt",
+            "b":"They would destroy the gods of Egypt",
+            "c":"They would join Egypt's enemies in war",
+            "d":"They would intermarry with the Egyptians" 
+           
+        },
+        "16": {
+            "a": "Stone and chisels",
+            "b":"Brick and mortar",
+            "c": "Yoke and oxen",
+            "d":"Sickle and hoe" 
+        },
+        "17": {
+            "a": "Kill all the babies of the Israelites",
+            "b":"Throw the Israelite babies into the river",
+            "c":"Kill the mothers before they had their babies",
+            "D":"Kill all the male Israelite babies" 
+        },
+        "18": {
+            "a": "Shiphrah and Puah",
+            "b":"Ruth and Naomi",
+            "c":"Asenath and Potiphar",
+            "d":"Zipporah and Miriam"
+        },
+        "19": {
+            "a": "They obeyed the voice of the Lord",
+            "b":"They had compassion on the children",
+            "c": "They had compassion on the Israelite mothers",
+            "D":"They feared God"
+        },
+        "20": {
+            "a": "God had protected the Israelite babies",
+            "b":"The Hebrew women gave birth before they got there",
+            "c":"The Israelite men protected their babies",
+            "d":"The babies were hidden before they arrived" 
+        },
+        "21": {
+            "a": "From Mount Horeb",
+            "b": "From the heaven",
+            "c": "From the Tent of Meeting",
+            "d": "From a burning bush"             
+        },
+        "22": {
+            "a": "Male and without defect",
+            "b": "One year old and without defect",
+            "c": "Anointed with oil and without defect",
+            "d": "One year old and solid color"  
+        },
+        "23": {
+            "a": "Sprinkle water on the head of the animal",
+            "b": "Confess his sins over the animal",
+            "c": "Anoint the animal's head with oil",
+            "d": "Lay his hands on the head of the animal"
+        },
+        "24": {
+            "a": "Young bull from the herd",
+            "b": "Donkey from the herd",
+            "c": "Male goat from the flock",
+            "d": "Male sheep from the flock" 
+            
+        },
+        "25": {
+            "a": "Sheep alone",
+            "b": "Cows and donkeys",
+            "c":"Sheep and goats",
+            "d":"Sheep, goats and cattle"
+        },
+        "26": {
+            "a": "On the garments of the priests",
+            "b": "On the ground inside the tabernacle",
+            "c": "On the incense altar in front of the ark of the Testimony",
+            "d": "On the sides of the bronze altar"
+        },
+        "27": {
+            "a": "Aaron, the high priest",
+            "b":"Aaron and his sons",
+            "c":"Aaron's sons, the priests",
+            "d":"Moses, Aaron and Aaron's sons"
+        },
+        "28": {
+            "a": "The meat and the fatty parts only",
+            "b":"All of it",
+            "c":"The meat parts only",
+            "d":"The fatty parts and the inner parts only" 
+        },
+        "29": {
+            "a": "Made atonement for",
+            "b":"Reconciled",
+            "c":"Sanctified",
+            "d":"Redeemed" 
+        },
+        "30": {
+            "a": "Slaughter the animal only",
+            "b":"Slaughter the animal and cut it into pieces only",
+            "c":"Slaughter, skin, cut it into pieces and wash its inner parts",
+            "d":"Present it to the priests and they would slaughter it" 
+        },
+        "31": {
+            "a": "First day of the second month of the second year",
+            "b":"First day of the first month of the first year",
+            "c":"First day of the first month of the second year",
+            "d":"First day of the second month of the third year" 
+        },
+        "32": {
+            "a": "Eighteen",
+            "b":"Twenty",
+            "c":"Twenty-one",
+            "d":"Thirty"  
+        },
+        "33": {
+            "a": "One person from each family",
+            "b":"One person from each tent",
+            "c":"One person from each tribe",
+            "d":"Joshua, Hur and Aaron's sons" 
+        },
+        "34": {
+            "a": "By where they lived in Goshen",
+            "b":"Whether they were part Egyptian or not",
+            "c":"By family and trade",
+            "d":"By family and name"  
+        },
+        "35": {
+            "a": "5,000-10,000",
+            "b":"10,000-20,000",
+            "c":"20,000-30,000",
+            "d":"30,000-60,000"  
+        },
+        "36": {
+            "a": "Reuben",
+            "b":"Ephraim",
+            "c":"Judah",
+            "d":"Dan"  
+        },
+        "37": {
+            "a": "70,000",
+            "b":"150,000",
+            "c":"600,000",
+            "d":"One million" 
+        },
+        "38": {
+            "a": "Levi",
+            "b":"Asher",
+            "c":"Benjamin",
+            "d":"Manasseh"  
+        },
+        "39": {
+            "a": "Carrying the tabernacle furnishings",
+            "b":"Starting the altar fires",
+            "c":"Setting up the tabernacle",
+            "d":"Taking the tabernacle it down" 
+        },
+        "40": {
+            "a":"Judah",
+            "b":"Reuben",
+            "c":"Moses",
+            "d":"Levi"  
         }
+
     },
 
     {
@@ -97,7 +300,37 @@
         "7": "Gathered into one place",
         "8": "The dry land",
         "9": "Plants and trees",
-        "10": "The sun and moon"
+        "10": "The sun and moon",
+        "11": "70",
+        "12": "Multiplied",
+        "13": "As one who did not know about Joseph",
+        "14": "Rameses",
+        "15": "They would join Egypt's enemies in war",
+        "16": "Brick and mortar",
+        "17": "Kill all the male Israelite babies",
+        "18": "Shiphrah and Puah",
+        "19": "They feared God",
+        "20": "The Hebrew women gave birth before they got there",
+        "21": "From the Tent of Meeting",
+        "22": "Male and without defect",
+        "23": "Lay his hands on the head of the animal",
+        "24": "Donkey from the herd",
+        "25": "Sheep and goats",
+        "26": "On the sides of the bronze altar",
+        "27": "Aaron's sons, the priests",
+        "28": "All of it",
+        "29": "Made atonement for",
+        "30": "Slaughter, skin, cut it into pieces and wash its inner parts",
+        "31": "First day of the second month of the second year",
+        "32": "Twenty",
+        "33": "One person from each tribe",
+        "34": "By family and name",
+        "35": "30,000-60,000",
+        "36": "Judah",
+        "37": "600,000",
+        "38": "Levi",
+        "39": "Starting the altar fires",
+        "40": "Levi"
     }
 ]
 
