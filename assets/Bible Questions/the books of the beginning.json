@@ -39,7 +39,17 @@
         "37": "The total that were numbered in the census came to approximately (Num. 1:46) ",
         "38": "What tribe was not to be counted (Num. 1:47)? ",
         "39": "All of the following were job responsibilities of the tribe of Levi EXCEPT (Num. 1:50ff) ",
-        "40": "Which tribe was to camp directly around the Tabernacle (Num. 1:53)? "
+        "40": "Which tribe was to camp directly around the Tabernacle (Num. 1:53)? ",
+        "41": "Deuteronomy records the words Moses spoke to all Israel when they were (Deut. 1:1)  ",
+        "42": "How many days does it take to go from Horeb to Kadesh Barnea (Deut. 1:2)?  ",
+        "43": "What road does one take to go from Horeb to Kadesh Barnea (Deut. 1:2)? ",
+        "44": "What year did Moses proclaim the message of Deuteronomy which the LORD had commanded him (Deut. 1:3)?  ",
+        "45": "In the Arabah, what did Moses proclaim to the Israelites (Deut. 1:3)?  ",
+        "46": "What two Amorite kings had Israel defeated prior to the proclamation of Deuteronomy (Deut. 1:4)? ",
+        "47": "Og was the Amorite king who ruled over (Deut. 1:4) ",
+        "48": "Sihon was the Amorite king who ruled (Deut. 1:4)",
+        "49": "Moses expounded the law east of the Jordan in the territory of (Deut. 1:5)  ",
+        "50": "When God told Israel to break camp from Horeb, he told them to go into the hill country of the ________ (Deut. 1:7)  "
     },
     
     {
@@ -286,6 +296,66 @@
             "b":"Reuben",
             "c":"Moses",
             "d":"Levi"  
+        },
+        "41": {
+            "a": "In the desert east of the Jordan",
+            "b":"Camped at Kadesh Barnea",
+            "c":"Arrived at Mount Hor",
+            "d":"Wandered in the wilderness"
+        },
+        "42": {
+            "a": "Seven days",
+            "b":"Eleven days",
+            "c":"Fourteen days",
+            "d":"Twenty-one days"
+        },
+        "43": {
+            "a": "The Kadesh road",
+            "b":"The Via Maris",
+            "c":"The Negev road",
+            "d":"The Mount Seir road" 
+        },
+        "44": {
+            "a": "Third year the first day of the tenth month",
+            "b":"The twentieth year the first day of the second month",
+            "c":"The fortieth year the first day of the eleventh month",
+            "d":"The fortieth year the fourteenth day of the first month"
+        },
+        "45": {
+            "a": "All the journey where they had gone",
+            "b":"All that the LORD had commanded him",
+            "c":"All the statutes and decrees of the LORD",
+            "d":"All that he had seen on Mount Horeb"  
+        },
+        "46": {
+            "a": "Og and Sihon",
+            "b":"Balak and Baalam",
+            "c":"Jabin and Sisera",
+            "d":"Abimelech and Jobab"
+        },
+        "47": {
+            "a": "Heshbon",
+            "b":"Eschol",
+            "c":"Bashan",
+            "d":"Edrei"   
+        },
+        "48": {
+            "a": "Heshbon",
+            "b":"Eschol",
+            "c":"Bashan",
+            "d":"Edrei"  
+        },
+        "49": {
+            "a": "Canaan",
+            "b":"Ammon",
+            "c":"Edom",
+            "d":"Moab"  
+        },
+        "50": {
+            "a": "Edomites",
+            "b":"Ammonites",
+            "c":"Amorites",
+            "d":"Moabites" 
         }
 
     },
@@ -330,7 +400,17 @@
         "37": "600,000",
         "38": "Levi",
         "39": "Starting the altar fires",
-        "40": "Levi"
+        "40": "Levi",
+        "41": "In the desert east of the Jordan",
+        "42": "Eleven days",
+        "43": "The Mount Seir road",
+        "44": "The fortieth year the first day of the eleventh month",
+        "45": "All that the LORD had commanded him",
+        "46": "Og and Sihon",
+        "47": "Bashan",
+        "48": "Heshbon",
+        "49": "Moab",
+        "50": "Amorites"
     }
 ]
 
