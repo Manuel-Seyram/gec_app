@@ -22,10 +22,10 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     setState(() {
-      if (Theme.of(context).brightness == Brightness.dark) {
-        selectedTheme = 'dark';
-      } else {
+      if (Theme.of(context).brightness == Brightness.light) {
         selectedTheme = 'light';
+      } else {
+        selectedTheme = 'dark';
       }
     });
 
