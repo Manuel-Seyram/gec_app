@@ -27,9 +27,9 @@ class _NotesState extends State<Notes> {
   }
 
   setTheme(Brightness brightness) {
-    if (brightness == Brightness.dark) {
+    if (brightness == Brightness.light) {
       setState(() {
-        theme = appThemeDark;
+        theme = appThemeLight;
       });
     } else {
       setState(() {
