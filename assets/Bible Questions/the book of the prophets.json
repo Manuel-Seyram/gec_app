@@ -1,0 +1,419 @@
+[
+    {
+        "1": "When did Nebuchadnezzar beseige Jerusalem (Dan 1:1)? ",
+        "2": "Who came and laid seige on Jerusalem (Dan 1:1)?  ",
+        "3": "Who delivered Jehoiakim into Nebuchadnezzar’s hand (Dan 1:2)?",
+        "4": "Jehoiakim was described as the king of _________ (Dan 1:1) ",
+        "5": "What did Nebuchadnezzar carry off from Jerusalem in the days of Jehoiakim (Dan 1:2)?",
+        "6": "Where did Nebuchadnezzar carry off the articles of the temple (Dan 1:2)?",
+        "7": "Who’s son was Hosea (Hos 1:1)? ",
+        "8": "What came to Hosea son of Beeri (Hos 1:1)?",
+        "9": "All of the following were kings of Judah during Hosea’s time EXCEPT (Hos 1:1)? ",
+        "10": "Who was the king of Israel during Hosea’s time (Hos 1:1)?",
+        "11": "What came to Joel son of Pethuel (Joel 1:1)? ",
+        "12": "Whose son was Joel (Joel 1:1)?",
+        "13": "Who does Joel explicitly exhort to listen because all who live in the land (Joel 1:2)? ",
+        "14": "What does Joel exhort all who live in the land to do with what would happen in their days (Joel 1:3)?",
+        "15": "What was Amos’ original vocation (Am 1:1)? ",
+        "16": "Amos was originally from what town in Judah (Am 1:1)?  ",
+        "17": "When did Amos receive his vision (Am 1:1)? ",
+        "18": "Who was the king of Judah during Amos’ vision (Am 1:1)?  ",
+        "19": "The book of Obadiah is introduced as a _________ (Obad 1) ",
+        "20": "What group is the book of Obadiah about (Obad 1)? ",
+        "21": "Who said “Rise, and let us go against her for battle” (Obad 1)?",
+        "22": "What did the envoy sent to the nations say (Obad 1)?",
+        "23": "Jonah was the son of _______ (Jn 1:1)",
+        "24": "What city did God command Jonah to go to (Jn 1:2)?",
+        "25": "Why did God send Jonah to Nineveh (Jn 1:2)?  ",
+        "26": "What was Jonah’s response to God’s command to go to preach against Nineveh (Jn 1:3)?",
+        "27": "Where was Micah from (Mic 1:1)? ",
+        "28": "All of the following were kings of Judah during the time of Micah EXCEPT (Mic 1:1) ",
+        "29": "What was the vision of Micah about (Mic 1:1)? ",
+        "30": "What/who does Micah tell to listen (Mic 1:2)?",
+        "31": " The book of Nahum opens as a(n) _________ concerning Nineveh (Nah 1:1)?",
+        "32": "The book of Nahum is an oracle concern what city (Nah 1:1)? ",
+        "33": "The book of Nahum is called a(n) __________ of Nahum (Nah 1:1) ",
+        "34": "The book of Nahum opens with Nahum being called a(n) ________ (Nah 1:1)  ",
+        "35": "What did Habakkuk receive (Hab 1:1)? ",
+        "36": "What does Habakkuk say was God’s response to his call for help (Hab 1:2)? ",
+        "37": "What did Habakkuk cry out to God (Hab 1:2)?",
+        "38": "What was God’s response when Habakkuk cried out “Violence” (Hab 1:2)? ",
+        "39": "Zephaniah was a descendent of what Judean king (Zeph 1:1)? ",
+        "40": "How is the content of the book of Zephaniah described as coming to the prophet Zephaniah (Zeph 1:1)?",
+        "41": "Zephaniah prophesied during the reign of what king of Judah (Zeph 1:1)? ",
+        "42": "Josiah was the son of what king of Judah (Zeph 1:1)?  ",
+        "43": "In the second year of who’s reign did the word of the Lord come through Haggai (Hag 1:1)?",
+        "44": "To whom did the word of the Lord come through Haggai (Hag 1:1)?   ",
+        "45": "Who was the governor of Judah during the prophecy of Haggai (Hag 1:1)?",
+        "46": "Who was the high priest during the prophecy of Haggai (Hag 1:1)? ",
+        "47": "The book of Malachi is labeled as a(n) _______ (Mal 1:1)?",
+        "48": "To whom is the book of Malachi addressed (Mal 1:1)?",
+        "49": "What does Israel ask the Lord (Mal 1:2)?  ",
+        "50": "What is the first thing the Lord says to Israel in the book of Malachi (Mal 1:2)?"
+    },
+    
+    {
+        "1": {
+            "a": "In Jehoiakim’s third year",
+            "b":"In Zedekiah’s fifth year",
+            "c":"In Jehoichin’s tenth year",
+            "d":"In Gedaliah’s first year"
+        },
+        "2": {
+            "a": "Cyrus",
+            "b":"Shalmaneser",
+            "c":"Nebuchadnezzar",
+            "d":"Sennacherib " 
+
+        },
+        "3": {
+            "a": "Marduk",
+            "b":"Belshazzar",
+            "c":"The nations",
+            "d":"The Lord "
+           
+        },
+        "4": {
+            "a": "Israel",
+            "b":"Judah",
+            "c":"Jerusalem",
+            "d":"The holy land "  
+        },
+        "5": {
+            "a": "The articles from the temple of God",
+            "b":"The bronze sea",
+            "c":"All the people of Jerusalem and Judah",
+            "d":"The two bronze pillars at the temple" 
+        },
+        "6": {
+            "a": "To the gates of Babylon",
+            "b":"To his palace in Babylon",
+            "c":"To the temple of his god",
+            "d":"To the desert of the Arabah"
+        },
+        "7": {
+            "a": "Nehelami",
+            "b":"Jezreel",
+            "c":"Beeri",
+            "d":"Netophah"
+        },
+        "8": {
+            "a": "A vision from the Almighty",
+            "b":"The word of the Lord",
+            "c":"A dream of Israel’s future",
+            "d":"The voice of the Lord"
+        },
+        "9": {
+            "a": "Uzziah",
+            "b":"Manasseh",
+            "c":"Jotham",
+            "d":"Ahaz "
+        },
+        "10": {
+            "a": "Jehu",
+            "b":"Basha",
+            "c":"Jeroboam",
+            "d":"Ahab"
+        },
+        "11": {
+            "a": "A vision at noon",
+            "b":"A dream in the night",
+            "c":"The word of the Lord",
+            "d":"Thoughts of the end "
+        },
+        "12": {
+            "a": "Beeri",
+            "b":"Pethuel",
+            "c":"Obed",
+            "d":"Perez" 
+        },
+        "13": {
+            "a": "The tribal leaders",
+            "b":"The chiefs of the clans",
+            "c":"The Priests",
+            "d":"The elders" 
+            
+        },
+        "14": {
+            "a": "Write it in a book",
+            "b":"Write it on stone",
+            "c":"Tell it to their children",
+            "d":"Tell it to the nations"
+        },
+        "15": {
+            "a": "A tax-collector",
+            "b":"A priest",
+            "c":"A fisherman",
+            "d":"A shepherd" 
+           
+        },
+        "16": {
+            "a": "Bethlehem",
+            "b":"Hebron",
+            "c":"Tekoa",
+            "d":"Lachish" 
+        },
+        "17": {
+            "a": "Three years after the locust plague",
+            "b":"Two years after the earthquake",
+            "c":"One year after the burning of Jerusalem",
+            "d":"Three years after the rebuilding of the temple" 
+        },
+        "18": {
+            "a": "Uzziah",
+            "b":"Hezekiah",
+            "c":"Manasseh",
+            "d":"Jehoiakim"
+        },
+        "19": {
+            "a": "Dream",
+            "b":"Vision",
+            "c":"Revelation",
+            "d":"Message from the Lord"
+        },
+        "20": {
+            "a": "Ammonites",
+            "b":"Moabites",
+            "c":"Edomites",
+            "d":"Jebusites" 
+        },
+        "21": {
+            "a": "An envoy sent to the nations",
+            "b":"The Lord to his heavenly hosts",
+            "c":"The prophet Obadiah",
+            "d":"The captains of Israel’s army"             
+        },
+        "22": {
+            "a": "Gather yourselves together against Edom",
+            "b":"Rise, and let us go against her for battle",
+            "c":"Go into the hill country of and hunt them down",
+            "d":"Uproot the remnant of Edom"  
+        },
+        "23": {
+            "a": "Shammai",
+            "b":"Azariah",
+            "c":"Amittai",
+            "d":"Ethan"
+        },
+        "24": {
+            "a": "Babylon",
+            "b":"Nineveh",
+            "c":"Jerusalem",
+            "d":"Damascus" 
+            
+        },
+        "25": {
+            "a": "Because of all their gods",
+            "b":"Because they had slaughtered the people of Ephraim",
+            "c":"Because of the oppression of all nations",
+            "d":"Because its wickedness had come up before God"
+        },
+        "26": {
+            "a": "He ran away",
+            "b":"He made excuses",
+            "c":"He refused to go",
+            "d":"He asked for a sign"
+        },
+        "27": {
+            "a": "Shechem",
+            "b":"Tekoa",
+            "c":"Moresheth",
+            "d":"Keilah "
+        },
+        "28": {
+            "a": "Hezekiah",
+            "b":"Jotham",
+            "c":"Ahaz",
+            "d":"Josiah" 
+        },
+        "29": {
+            "a": "Samaria and Jerusalem",
+            "b":"Israel and Judah",
+            "c":"Moab and Ammon",
+            "d":"Bethel and Dan" 
+        },
+        "30": {
+            "a": "The heavens",
+            "b":"The earth",
+            "c":"The people of Jerusalem",
+            "d":"The cows of Samaria " 
+        },
+        "31": {
+            "a": "Prophesy",
+            "b":"Saying",
+            "c":"Oracle",
+            "d":"Dirge" 
+        },
+        "32": {
+            "a": "Babylon",
+            "b":"Nineveh",
+            "c":"Bozrah",
+            "d":"Jerusalem "  
+        },
+        "33": {
+            "a": "Vision",
+            "b":"Prophecy",
+            "c":"Dirge",
+            "d":"Saying" 
+        },
+        "34": {
+            "a": "Jebusite",
+            "b":"Netophathite",
+            "c":"Ephraimite",
+            "d":"Elkoshite "  
+        },
+        "35": {
+            "a": "A prophecy",
+            "b":"A vision",
+            "c":"An oracle",
+            "d":"A message"  
+        },
+        "36": {
+            "a": "He heard his cry",
+            "b":"He did not listen",
+            "c":"He answered his prayer",
+            "d":"He ignored his plea"  
+        },
+        "37": {
+            "a": "Help",
+            "b":"Save",
+            "c":"Why",
+            "d":"Violence" 
+        },
+        "38": {
+            "a": "He did not save",
+            "b":"He did not listen",
+            "c":"He ignored it",
+            "d":"He answered his prayer"  
+        },
+        "39": {
+            "a": "Ahaz",
+            "b":"Hezekiah",
+            "c":"Amon",
+            "d":"Jehoiakim " 
+        },
+        "40": {
+            "a":"The vision of Zephaniah",
+            "b":"The heavens opened and Zephaniah saw",
+            "c":"The word of the Lord came to Zephaniah",
+            "d":"The Lord anointed Zephaniah as his prophet"  
+        },
+        "41": {
+            "a": "Hezekiah",
+            "b":"Ahaz",
+            "c":"Manasseh",
+            "d":"Josiah "
+        },
+        "42": {
+            "a": "Amon",
+            "b":"Hezekiah",
+            "c":"Ahaziah",
+            "d":"Jehu"
+        },
+        "43": {
+            "a": "Cyrus",
+            "b":"Nebuchadnezzar",
+            "c":"Xerxes",
+            "d":"Darius" 
+        },
+        "44": {
+            "a": "Ezra and Nehemiah",
+            "b":"Zerubbabel and Joshua",
+            "c":"Sanballat and Tobiah",
+            "d":"Cyrus and Darius "
+        },
+        "45": {
+            "a": "Zerubbabel",
+            "b":"Joshua",
+            "c":"Nehemiah",
+            "d":"Ezra"  
+        },
+        "46": {
+            "a": "Zerubbabel",
+            "b":"Joshua",
+            "c":"Nehemiah",
+            "d":"Ezra"
+        },
+        "47": {
+            "a": "A prophecy",
+            "b":"A vision",
+            "c":"A sermon",
+            "d":"An oracle"   
+        },
+        "48": {
+            "a": "Judah",
+            "b":"The exiles",
+            "c":"Israel",
+            "d":"The remnant"  
+        },
+        "49": {
+            "a": "Is this what you call love?",
+            "b":"How have you loved us?",
+            "c":"Why have you loved us?",
+            "d":"Have you really loved us?"  
+        },
+        "50": {
+            "a": "I have loved you",
+            "b":"I have given you my covenant",
+            "c":"I will redeem you",
+            "d":"I have forgiven you" 
+        }
+
+    },
+
+    {
+        "1": "In Jehoiakim’s third year",
+        "2": "Nebuchadnezzar",
+        "3": "The Lord ",
+        "4": "Judah",
+        "5": "The articles from the temple of God",
+        "6": "To the temple of his god",
+        "7": "Beeri",
+        "8": "The word of the Lord",
+        "9": "Manasseh",
+        "10": "Jeroboam",
+        "11": "The word of the Lord",
+        "12": "Pethuel",
+        "13": "The elders",
+        "14": "Tell it to their children",
+        "15": "A shepherd",
+        "16": "Tekoa",
+        "17": "Two years after the earthquake",
+        "18": "Uzziah",
+        "19": "Vision",
+        "20": "Edomites",
+        "21": "An envoy sent to the nations",
+        "22": "Rise, and let us go against her for battle",
+        "23": "Amittai",
+        "24": "Nineveh",
+        "25": "Because its wickedness had come up before God",
+        "26": "He ran away",
+        "27": "Moresheth",
+        "28": "Josiah",
+        "29": "Samaria and Jerusalem",
+        "30": "The earth",
+        "31": "Oracle",
+        "32": "Nineveh",
+        "33": "Vision",
+        "34": "Elkoshite",
+        "35": "An oracle",
+        "36": "He did not listen",
+        "37": "Violence",
+        "38": "He did not save",
+        "39": "Hezekiah",
+        "40": "The word of the Lord came to Zephaniah",
+        "41": "Josiah ",
+        "42": "Amon",
+        "43": "Darius",
+        "44": "Zerubbabel and Joshua",
+        "45": "Zerubbabel",
+        "46": "Joshua",
+        "47": "An oracle",
+        "48": "Israel",
+        "49": "How have you loved us?",
+        "50": "I have loved you"
+    }
+]
+
+
+
