@@ -30,7 +30,7 @@ class _JoinGecState extends State<JoinGec> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-            title: const Text('JOIN Gec Today'),
+            title: const Text('Join Gec Today'),
             leading: new IconButton(
                 icon: new Icon(Icons.arrow_back),
                 onPressed: () {
