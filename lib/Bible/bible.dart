@@ -5,8 +5,6 @@ import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:gec_app/Bible/core.dart';
 import 'package:gec_app/Bible/idea/scope.dart';
 
-void main() => runApp(Bible());
-
 class Bible extends StatelessWidget {
   const Bible({
     Key key,
