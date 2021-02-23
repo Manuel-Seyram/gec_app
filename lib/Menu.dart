@@ -3,8 +3,7 @@ import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Join.dart';
 import 'package:gec_app/MenuItems/aboutUs.dart';
 import 'Notes/notes.dart';
-import 'package:gec_app/MenuItems/Quiz.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:gec_app/Quiz/quiz.dart';
 
 // ignore: must_be_immutable
 class HomeScreen extends StatefulWidget {
