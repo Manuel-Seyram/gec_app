@@ -12,6 +12,7 @@ class getjson extends StatelessWidget {
   String biblecategory;
   getjson(this.biblecategory);
   String assettoload;
+  String note = "please wait a moment";
 
   // a function
   // sets the asset to a particular JSON file
@@ -36,21 +37,19 @@ class getjson extends StatelessWidget {
     // the string assettoload is avialable to the DefaultAssetBuilder
     setasset();
     // and now we return the FutureBuilder to load and decode JSON
-    return FutureBuilder(
+    return FutureBuilder<String>(
       future:
           DefaultAssetBundle.of(context).loadString(assettoload, cache: false),
       builder: (context, snapshot) {
-        List mydata = json.decode(snapshot.data.toString());
-        if (mydata.toString() == null) {
+        List mydata = json.decode(snapshot.data);
+        if (mydata == null) {
           return Scaffold(
             body: Center(
-              child: Text(
-                "Please wait a moment",
-              ),
+              child: Text(note != null ? note : 'default text'),
             ),
           );
         } else {
-          return quizpage(mydata: mydata);
+          return Container(child: quizpage(mydata: mydata));
         }
       },
     );
@@ -59,10 +58,11 @@ class getjson extends StatelessWidget {
 
 // ignore: camel_case_types
 class quizpage extends StatefulWidget {
-  String assettoload;
+  final String assettoload;
   final List mydata;
 
-  quizpage({Key key, @required this.mydata}) : super(key: key);
+  quizpage({Key key, @required this.mydata, this.assettoload})
+      : super(key: key);
   @override
   _quizpageState createState() => _quizpageState(mydata);
 }
