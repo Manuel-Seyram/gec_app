@@ -68,7 +68,8 @@ flutter:
      - assets/images/join us.png
      - assets/images/bible.png
      - assets/images/quiz.png
-     - assets/images/visit.jpg     
+     - assets/images/visit.jpg 
+     - assets/images/audiobook.jpg    
      - assets/book.json
      - assets/images/
      - assets/Bible Questions/
