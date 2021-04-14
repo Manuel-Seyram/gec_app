@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Join.dart';
 import 'package:gec_app/MenuItems/aboutUs.dart';
+import 'MenuItems/audiobook.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/Quiz/quiz.dart';
 
@@ -112,6 +113,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Center(
                   child: Image.asset(
                     'assets/images/join us.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(9.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Audiobook()));
+                },
+                splashColor: Colors.blue,
+                child: Center(
+                  child: Image.asset(
+                    'assets/images/audiobook.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
