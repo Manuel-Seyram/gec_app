@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Center(
                   child: Image.asset(
                     'assets/images/notes.png',
-                    fit: BoxFit.cover, 
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),
@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 splashColor: Colors.blue,
                 child: Center(
                   child: Image.asset(
-                    'assets/images/visit.jpg',
+                    'assets/images/notification.png',
                     fit: BoxFit.cover,
                   ),
                 ),
