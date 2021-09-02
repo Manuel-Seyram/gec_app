@@ -34,11 +34,12 @@ class View extends _State with _Bar, _Refresh, _Info {
     return Scaffold(
         key: scaffoldKey,
         body: SafeArea(
-          child: ReorderableList(
+          child: reorder.ReorderableList(
             onReorder: this.reorderCallback,
             onReorderDone: this.reorderDone,
             decoratePlaceholder: (Widget item, double opacity) {
-              return DecoratedPlaceholder(widget: item, offset: opacity);
+              return reorder.DecoratedPlaceholder(
+                  widget: item, offset: opacity);
             },
             child: _reorder(),
           ),
@@ -116,15 +117,16 @@ class View extends _State with _Bar, _Refresh, _Info {
     bool isAvailable = collectionBible.available > 0;
     bool isPrimary = collectionBible.identify == core.primaryId;
     // bool isParallel = collectionBible.identify == core.parallelId;
-    return ReorderableItem(
+    return reorder.ReorderableItem(
         key: ValueKey<String>(collectionBible.identify),
-        childBuilder: (BuildContext context, ReorderableItemState state) {
+        childBuilder:
+            (BuildContext context, reorder.ReorderableItemState state) {
           // if (state == ReorderableItemState.dragProxy ||
           //     state == ReorderableItemState.dragProxyFinished) {
           //       backgroundColor = Theme.of(context).backgroundColor;
           // }
           Widget dragHandle = this.isSorting
-              ? ReorderableListener(
+              ? reorder.ReorderableListener(
                   child: Container(
                       padding:
                           EdgeInsets.symmetric(vertical: 7.0, horizontal: 7.0),
@@ -150,8 +152,9 @@ class View extends _State with _Bar, _Refresh, _Info {
                   ]),
               child: Opacity(
                   // hide content for placeholder
-                  opacity:
-                      state == ReorderableItemState.placeholder ? 0.0 : 1.0,
+                  opacity: state == reorder.ReorderableItemState.placeholder
+                      ? 0.0
+                      : 1.0,
                   child: IntrinsicHeight(
                       child: new ListTile(
                           // dense: true,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gec_app/Bible/bible.dart';
 import 'package:gec_app/MenuItems/Join.dart';
-import 'package:gec_app/MenuItems/aboutUs.dart';
+//import 'package:gec_app/MenuItems/aboutUs.dart';
 import 'MenuItems/audiobook.dart';
 import 'Notes/notes.dart';
 import 'package:gec_app/Quiz/quiz.dart';
@@ -75,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => AboutUs()));
+                      MaterialPageRoute(builder: (context) => JoinGec()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
