@@ -1,14 +1,14 @@
 //import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:gec_app/Menu.dart';
+import 'package:gec_app/Splash/splash.dart';
 //import 'package:gec_app/menu/menu.dart';
 
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: new HomeScreen(),
+    home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
-      '/menu': (BuildContext context) => new HomeScreen()
+      '/splash': (BuildContext context) => new SplashScreen()
     },
   ));
 }

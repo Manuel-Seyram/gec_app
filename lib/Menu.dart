@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gec_app/Bible/bible.dart';
-import 'package:gec_app/MenuItems/Join.dart';
-import 'MenuItems/audiobook.dart';
-import 'Notes/notes.dart';
-import 'package:gec_app/Quiz/quiz.dart';
+import 'package:gec_app/MenuItems/Bible/bible1.dart';
+import 'package:gec_app/MenuItems/Notes/notes.dart';
 
 // ignore: must_be_immutable
 class HomeScreen extends StatefulWidget {
@@ -42,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Bible()));
+                      MaterialPageRoute(builder: (context) => UniqueBible()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
@@ -74,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => JoinGec()));
+                      MaterialPageRoute(builder: (context) => Notes()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
@@ -89,8 +86,8 @@ class _HomeScreenState extends State<HomeScreen> {
               margin: EdgeInsets.all(9.0),
               child: InkWell(
                 onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Quiz()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Notes()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
@@ -106,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => JoinGec()));
+                      MaterialPageRoute(builder: (context) => Notes()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
@@ -122,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Audiobook()));
+                      MaterialPageRoute(builder: (context) => Notes()));
                 },
                 splashColor: Colors.blue,
                 child: Center(
